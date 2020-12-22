@@ -26,6 +26,7 @@ class PizzaFactory(object):
             return DeluxePizza()
         elif pizza_type == 'Hawaiian':
             return HawaiianPizza()
+        
 
 if __name__ == '__main__':
     for pizza_type in ('HamMushroom', 'Deluxe', 'Hawaiian'):
